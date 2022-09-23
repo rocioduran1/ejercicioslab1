@@ -1,0 +1,24 @@
+paquete  clase11 ;
+importar  Java . útil _ escáner ;
+ clase  pública Clase11 {
+  public  static  void  main ( String [] args ) {
+    Escáner  Entrada = nuevo  Escáner ( Sistema . en );
+    float  nota1 , nota2 , nota3 , promedio ;
+    sistema _ fuera _ println ( "Ingrese la primera nota" );
+    nota1 = Entrada . siguienteFlotante ();
+    sistema _ fuera _ println ( "Ingrese la primera nota" );
+    nota2 = Entrada . siguienteFlotante ();
+    sistema _ fuera _ println ( "Ingrese la primera nota" );
+    nota3 = Entrada . siguienteFlotante ();
+    promedio = ( nota1 + nota2 + nota3 ) / 3 ;
+    sistema _ fuera _ println ( "El promedio es: " + promedio );
+    si ( promedio >= 7 ){
+      sistema _ fuera _ printltn ( "Promocionado" );
+    } más  si ( promedio >= 4 ){
+      sistema _ fuera _ println ( "Normal" );
+    } más {
+      sistema _ fuera _ println ( "Reprobado" );
+    }
+  }
+    
+}

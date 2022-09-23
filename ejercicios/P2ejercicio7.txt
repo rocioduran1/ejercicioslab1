@@ -1,0 +1,18 @@
+paquete  periodo2clase13 ;
+importar  Java . útil _ escáner ;
+ clase  pública periodo2class13 {
+    public  static  void  main ( String [] args ){
+        String  tipoDia = "" ;
+        String  diaSemana = "" ;
+        
+        switch ( diaSemana . toLowerCase ()){
+            case  "lunes" -> tipoDia = "Inicio de semana" ;
+            case  "martes" , "miercoles" , "jueves" -> tipoDia = "Mediados de semana" ;
+            case  "viernes" -> tipoDia = "Inicio de fin de semana" ;
+            case  "sabado" , "domingo" -> tipoDia = "Fin de semana" ;
+                
+            
+        }
+        sistema _ fuera _ println ( diaSemana + "es" + tipoDia );
+    }
+}

@@ -1,0 +1,17 @@
+paquete  periodo3 ;
+importar  Java . útil _ escáner ;
+ clase  pública Periodo3 {
+  public  static  void  main ( String [] args ) {
+    Escáner  Lector = nuevo  Escáner ( Sistema . en );
+     contador int ;
+     aleta int ;
+    sistema _ fuera _ println ( "Por favor ingrese el valor inicial (Contador)" );
+    contador = lector . siguienteInt ();
+    sistema _ fuera _ println ( "Por favor ahora ingrese el valor final" );
+    aleta = Lector . siguienteInt ();
+    while ( contador <= fin ) {
+    sistema _ fuera _ println ( "Valor actual de la iteracion" + contador );
+    contador ++;
+    }
+  }
+}

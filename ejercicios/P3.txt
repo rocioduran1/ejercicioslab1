@@ -1,0 +1,13 @@
+paquete  periodo3clase8 ;
+importar  Java . útil _ escáner ;
+ clase  pública periodo3class8 {
+    public  static  void  main ( String [] args ) {
+        Escáner  Lector = nuevo  Escáner ( Sistema . en );
+        String  quieroJugar = "si" ;
+        while ( quieroJugar . es igual a ( "si" )) {
+            sistema _ fuera _ println ( "¿Quieres seguir jugando" );
+            quieroJugar = Lector . siguiente ();
+        }
+    }
+    
+}
